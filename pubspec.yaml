@@ -13,6 +13,7 @@ dependencies:
   get: ^4.7.3
   google_fonts: ^8.0.0
   introduction_screen: ^4.0.0
+  lottie: ^3.3.2
   shared_preferences: ^2.5.4
   theme_manager: ^2.0.4
 
@@ -28,3 +29,4 @@ flutter:
     - assets/
     - assets/SVG/
     - assets/Images/
+    - assets/Animations/

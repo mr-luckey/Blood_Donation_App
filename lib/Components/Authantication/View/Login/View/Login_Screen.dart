@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
-import 'package:monex/Components/Authantication/View/Login/Widgets/PasswordTextField.dart';
-import 'package:monex/Components/Authantication/View/Login/Widgets/SimpleTextField.dart';
+import 'package:monex/Widgets/TextFields/TextFields.dart';
+// import 'package:monex/Widgets/TextFields/SimpleTextField.dart';
 import 'package:monex/Components/Authantication/View/SIgnUp/View/SignUp_Screen.dart';
 // import 'package:monex/Components/Authantication/View/SIgnUp/View/SignUp_Screen.dart';
 import 'package:monex/Widgets/Button/SocialButton.dart';
@@ -19,7 +19,7 @@ class LoginScreen extends StatelessWidget {
     final w = size.width;
 
     return Scaffold(
-      backgroundColor: Colors.white,
+      // backgroundColor: Colors.white,
       resizeToAvoidBottomInset: true,
       body: SafeArea(
         child: LayoutBuilder(
@@ -46,7 +46,7 @@ class LoginScreen extends StatelessWidget {
 
                         Padding(
                           padding: EdgeInsets.symmetric(horizontal: w * 0.06),
-                          child: Simpletextfield(
+                          child: SimpleTextField(
                             hint: "Username",
                             icon: Icons.person_2_outlined,
                           ),

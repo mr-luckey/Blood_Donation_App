@@ -14,7 +14,7 @@ class OnbordingScreen extends StatelessWidget {
     final scale = size.width / 375; // base width
 
     return Scaffold(
-      backgroundColor: Colors.white,
+      // backgroundColor: Colors.white,
       body: Center(
         child: Padding(
           padding: EdgeInsets.only(top: 100 * scale),
