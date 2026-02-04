@@ -1,0 +1,30 @@
+name: monex
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.2.3
+  get: ^4.7.3
+  google_fonts: ^8.0.0
+  introduction_screen: ^4.0.0
+  shared_preferences: ^2.5.4
+  theme_manager: ^2.0.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/SVG/
+    - assets/Images/
