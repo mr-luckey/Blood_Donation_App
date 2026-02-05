@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
+import 'package:monex/Theme/App_theme.dart';
 import 'package:monex/Widgets/TextFields/TextFields.dart';
 // import 'package:monex/Widgets/TextFields/SimpleTextField.dart';
 import 'package:monex/Components/Authantication/View/SIgnUp/View/SignUp_Screen.dart';
@@ -122,7 +123,7 @@ class LoginScreen extends StatelessWidget {
                             child: Text(
                               "Sign Up",
                               style: TextStyle(
-                                color: Colors.blue,
+                                color: AppThemes.lightTheme.primaryColor,
                                 fontWeight: FontWeight.bold,
                                 fontSize: h * 0.018,
                               ),

@@ -61,6 +61,7 @@ class SimpleTextField extends StatelessWidget {
     required this.hint,
     required this.icon,
     this.controller,
+    String? errorText,
   });
 
   @override
